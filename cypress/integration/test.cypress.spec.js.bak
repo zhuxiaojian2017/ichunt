@@ -1,0 +1,17 @@
+describe('My First Test', function() {
+  it('Visits the Kitchen Sink', function() {
+    cy.visit('https://sz.ichunt.com')
+		cy.wait(200)
+		cy.get('.login-name > a').eq(0).click();
+		cy.get('.login-tab ul li').eq(0).click();
+		cy.get('#usernamexp').type('18682159081');
+		cy.get('#passwordxp').type('123456');
+		var a = cy.url(true)
+		//var a = cy.location('href')
+		//const now = new Date().getTime()
+		console.log("aaaa")
+		cy.title
+		cy.get('.login-tabbox button').eq(0).click();
+		cy.get('#namex').type
+  })
+})

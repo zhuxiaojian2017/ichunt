@@ -1,0 +1,8 @@
+{
+	"baseUrl": "https://sz.ichunt.com",
+	"integrationFolder": "cypress/integration",
+	"testFiles": "**/*.spec.js",
+	"vedio": false,
+	"viewportHeight": 800,
+	"viewportWidth": 1600
+}
